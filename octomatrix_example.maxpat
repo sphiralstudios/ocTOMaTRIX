@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 926.0, 66.0, 230.0, 95.0 ],
+					"patching_rect" : [ 925.0, 70.0, 230.0, 95.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -104,7 +104,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 100.0, 604.0, 48.0, 136.0 ],
+					"patching_rect" : [ 100.0, 610.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -128,7 +128,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 755.0, 45.0, 45.0 ],
+					"patching_rect" : [ 96.0, 767.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -168,7 +168,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 70.0, 243.0, 819.0, 347.0 ],
+					"patching_rect" : [ 69.0, 225.0, 1303.0, 338.0 ],
 					"varname" : "octomatrix",
 					"viewvisibility" : 1
 				}
@@ -249,27 +249,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-142::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
-			"obj-3::obj-35" : [ "[2]", "Level", 0 ],
-			"obj-2::obj-35" : [ "[8]", "Level", 0 ],
-			"obj-4::obj-147::obj-81::obj-4" : [ "Glide[5]", "Glide", 0 ],
-			"obj-1::obj-35" : [ "[6]", "Level", 0 ],
-			"obj-4::obj-141::obj-81::obj-4" : [ "Glide", "Glide", 0 ],
-			"obj-4::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-4::obj-144::obj-81::obj-4" : [ "Glide[3]", "Glide", 0 ],
-			"obj-3::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
-			"obj-4::obj-7::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-2::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
-			"obj-4::obj-10::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-4::obj-148::obj-81::obj-4" : [ "Glide[6]", "Glide", 0 ],
-			"obj-4::obj-143::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
 			"obj-6::obj-21::obj-6" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-4::obj-10::obj-21::obj-6" : [ "live.tab[9]", "live.tab[1]", 0 ],
+			"obj-4::obj-148::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
+			"obj-4::obj-141::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ],
 			"obj-6::obj-35" : [ "[7]", "Level", 0 ],
-			"obj-4::obj-145::obj-81::obj-4" : [ "Glide[4]", "Glide", 0 ],
+			"obj-4::obj-7::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-8" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-4::obj-149::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ],
+			"obj-4::obj-10::obj-35" : [ "[9]", "Level", 0 ],
+			"obj-4::obj-144::obj-81::obj-4" : [ "Glide[4]", "Glide", 0 ],
+			"obj-3::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
+			"obj-2::obj-35" : [ "[8]", "Level", 0 ],
+			"obj-4::obj-145::obj-81::obj-4" : [ "Glide[3]", "Glide", 0 ],
+			"obj-1::obj-35" : [ "[6]", "Level", 0 ],
+			"obj-4::obj-147::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
+			"obj-4::obj-7::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-4::obj-142::obj-81::obj-4" : [ "Glide[6]", "Glide", 0 ],
+			"obj-2::obj-21::obj-6" : [ "live.tab[8]", "live.tab[1]", 0 ],
+			"obj-4::obj-143::obj-81::obj-4" : [ "Glide[5]", "Glide", 0 ],
 			"obj-1::obj-21::obj-6" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-4::obj-10::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
+			"obj-4::obj-149::obj-81::obj-4" : [ "Glide", "Glide", 0 ],
+			"obj-3::obj-35" : [ "[2]", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -342,6 +342,12 @@
 				"name" : "random.svg",
 				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainStuff.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/mow_enabled",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
