@@ -3787,7 +3787,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 543.0, 512.0, 896.0, 783.0 ],
+						"rect" : [ 357.0, 163.0, 896.0, 783.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4278,7 +4278,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-155", 1 ],
+									"destination" : [ "obj-155", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-7", 0 ]
