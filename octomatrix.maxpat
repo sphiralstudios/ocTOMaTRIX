@@ -3277,7 +3277,7 @@
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 343.25, 116.0, 123.0, 167.0 ],
 					"style" : "",
-					"text" : "0: Pass\n1: VCA / Mix\n2: Env.\n3: LFO \n4: Filter\n5: Granulator   \n6: Delay\n7: LoFi\n8: Pitch Shift"
+					"text" : "0: Pass\n1: VCA / Mix\n2: Env.\n3: Decimator \n4: Filter\n5: Granulator   \n6: Delay\n7: LoFi\n8: Pitch Shift"
 				}
 
 			}
