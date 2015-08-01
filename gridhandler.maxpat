@@ -240,6 +240,8 @@
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 188.5, 416.0, 139.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 139.5, 3.0, 139.0, 146.0 ],
 					"rows" : 8,
 					"style" : ""
 				}
@@ -315,8 +317,6 @@
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 329.5, 416.0, 139.0, 146.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 139.5, 3.0, 139.0, 146.0 ],
 					"rows" : 8,
 					"style" : ""
 				}
