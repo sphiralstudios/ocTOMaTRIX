@@ -3595,32 +3595,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-223",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1247.5, 41.0, 72.0, 22.0 ],
-					"style" : "",
-					"text" : "phaseshift~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-222",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1247.5, 15.0, 54.0, 22.0 ],
-					"style" : "",
-					"text" : "phaser~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-220",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -4869,33 +4843,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-144::obj-81::obj-4" : [ "Glide[4]", "Glide", 0 ],
+			"obj-145::obj-81::obj-4" : [ "Glide[4]", "Glide", 0 ],
 			"obj-7::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-113::obj-87" : [ "Arc_4[2]", "Arc_4", 0 ],
-			"obj-145::obj-81::obj-4" : [ "Glide[3]", "Glide", 0 ],
-			"obj-113::obj-79" : [ "Arc_3[2]", "Arc_3", 0 ],
-			"obj-113::obj-13" : [ "Arc_1[2]", "Arc_1", 0 ],
-			"obj-147::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
+			"obj-144::obj-81::obj-4" : [ "Glide[3]", "Glide", 0 ],
+			"obj-113::obj-69" : [ "Arc_2[1]", "Arc_2", 0 ],
+			"obj-143::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
+			"obj-148::obj-81::obj-4" : [ "Glide[6]", "Glide", 0 ],
 			"obj-10::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-142::obj-81::obj-4" : [ "Glide[6]", "Glide", 0 ],
 			"obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-143::obj-81::obj-4" : [ "Glide[5]", "Glide", 0 ],
+			"obj-113::obj-87" : [ "Arc_4[1]", "Arc_4", 0 ],
+			"obj-147::obj-81::obj-4" : [ "Glide[5]", "Glide", 0 ],
 			"obj-10::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-149::obj-81::obj-4" : [ "Glide", "Glide", 0 ],
-			"obj-148::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
-			"obj-113::obj-69" : [ "Arc_2[2]", "Arc_2", 0 ],
-			"obj-141::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ]
+			"obj-113::obj-79" : [ "Arc_3[1]", "Arc_3", 0 ],
+			"obj-141::obj-81::obj-4" : [ "Glide", "Glide", 0 ],
+			"obj-142::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
+			"obj-149::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ],
+			"obj-113::obj-13" : [ "Arc_1[1]", "Arc_1", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "serialosc.maxpat",
 				"bootpath" : "~/Documents/Max 7/enabled",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "phaser~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/CNMAT-MMJ-Depot-master/patchers/effects_audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4964,10 +4932,6 @@
 				"bootpath" : "~/Documents/Max 7/Projects/mow_enabled",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0
