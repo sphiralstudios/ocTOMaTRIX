@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 221.0, 104.0, 1750.0, 824.0 ],
+		"rect" : [ 136.0, 104.0, 1750.0, 824.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1220.5, 317.0, 36.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -384,7 +397,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 197.0, 249.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "2"
+									"text" : "4"
 								}
 
 							}
@@ -397,7 +410,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 179.0, 514.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "0"
+									"text" : "2"
 								}
 
 							}
@@ -410,7 +423,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 187.0, 86.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "0 1 0"
+									"text" : "1 3 1"
 								}
 
 							}
@@ -1211,7 +1224,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 937.0, 258.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "2"
+									"text" : "4"
 								}
 
 							}
@@ -1224,7 +1237,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 204.0, 347.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "0"
+									"text" : "2"
 								}
 
 							}
@@ -2978,7 +2991,7 @@
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 447.25, 116.0, 371.0, 167.0 ],
 					"style" : "",
-					"text" : "     N/A              N/A               N/A               N/A    \n  Input Lvl     vca range   vca Wet/Dry   Output Lvl\n   Attack          Decay          Sustain        Release\n    Freq        Pulse Width  Pulse Slope     Depth    \nCutoff Freq         Q           Filter Type    Filter Depth\nGrain Size   Gr. Spread    Gr. Speed      Gr. Rate \n T Rough        T Fine        Feedback      Wet / Dry\n Bit Crush    Noise Freq     Noise Q       Noise Lvl\n Shift Amt    Time Offset     CV depth     Wet / Dry"
+					"text" : "     N/A              N/A               N/A               N/A    \n  Input Lvl     vca range   vca Wet/Dry   Output Lvl\n   Attack          Decay          Sustain        Release\n    Freq        Pulse Width  Pulse Slope     Depth    \nCutoff Freq         Q           Filter Type    Filter Depth\nGrain Size   Gr. Speed       Gr. Rate         Drive\n T Rough        T Fine        Feedback      Wet / Dry\n Bit Crush    Noise Freq     Noise Q       Noise Lvl\n Shift Amt    Time Offset     CV depth     Wet / Dry"
 				}
 
 			}
@@ -3200,10 +3213,10 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "gridHandler.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 861.5, 308.0, 283.0, 151.0 ],
+					"patching_rect" : [ 861.5, 317.0, 283.0, 151.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 58.25, 132.0, 283.0, 151.0 ],
 					"viewvisibility" : 1
@@ -3399,7 +3412,7 @@
 					"numoutlets" : 4,
 					"offset" : [ -79.0, -64.0 ],
 					"outlettype" : [ "", "int", "", "" ],
-					"patching_rect" : [ 861.5, 267.0, 319.0, 27.0 ],
+					"patching_rect" : [ 946.0, 264.0, 319.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 76.25, 36.0, 314.0, 26.0 ],
 					"varname" : "serialosc",
@@ -3999,6 +4012,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-145", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4232,6 +4254,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 154.75, 312.0, 590.15, 312.0 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -4472,22 +4503,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-141::obj-81::obj-4" : [ "Glide", "Glide", 0 ],
-			"obj-144::obj-81::obj-4" : [ "Glide[3]", "Glide", 0 ],
-			"obj-10::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-143::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
-			"obj-148::obj-81::obj-4" : [ "Glide[6]", "Glide", 0 ],
-			"obj-10::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-113::obj-87" : [ "Arc_4[1]", "Arc_4", 0 ],
-			"obj-147::obj-81::obj-4" : [ "Glide[5]", "Glide", 0 ],
-			"obj-142::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
-			"obj-113::obj-79" : [ "Arc_3[1]", "Arc_3", 0 ],
-			"obj-149::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ],
-			"obj-113::obj-69" : [ "Arc_2[1]", "Arc_2", 0 ],
 			"obj-113::obj-13" : [ "Arc_1[1]", "Arc_1", 0 ],
-			"obj-145::obj-81::obj-4" : [ "Glide[4]", "Glide", 0 ]
+			"obj-147::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
+			"obj-149::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ],
+			"obj-141::obj-81::obj-4" : [ "Glide[12]", "Glide", 0 ],
+			"obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
+			"obj-142::obj-81::obj-4" : [ "Glide[11]", "Glide", 0 ],
+			"obj-144::obj-81::obj-4" : [ "Glide[9]", "Glide", 0 ],
+			"obj-10::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-148::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
+			"obj-145::obj-81::obj-4" : [ "Glide[8]", "Glide", 0 ],
+			"obj-10::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-113::obj-87" : [ "Arc_4[1]", "Arc_4", 0 ],
+			"obj-7::obj-35" : [ "[1]", "Level", 0 ],
+			"obj-143::obj-81::obj-4" : [ "Glide[10]", "Glide", 0 ],
+			"obj-113::obj-79" : [ "Arc_3[1]", "Arc_3", 0 ],
+			"obj-113::obj-69" : [ "Arc_2[1]", "Arc_2", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
