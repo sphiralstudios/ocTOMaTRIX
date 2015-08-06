@@ -2991,7 +2991,7 @@
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 447.25, 116.0, 371.0, 167.0 ],
 					"style" : "",
-					"text" : "     N/A              N/A               N/A               N/A    \n  Input Lvl     vca range   vca Wet/Dry   Output Lvl\n   Attack          Decay          Sustain        Release\n    Freq        Pulse Width  Pulse Slope     Depth    \nCutoff Freq         Q           Filter Type    Filter Depth\nGrain Size   Gr. Speed       Gr. Rate         Drive\n T Rough        T Fine        Feedback      Wet / Dry\n Bit Crush    Noise Freq     Noise Q       Noise Lvl\n Shift Amt    Time Offset     CV depth     Wet / Dry"
+					"text" : "     N/A              N/A               N/A               N/A    \n  Input Lvl     vca range   vca Wet/Dry   Output Lvl\n   Attack          Decay          Sustain        Release\n    Freq        Pulse Width  Pulse Slope     Depth    \nCutoff Freq         Q           Filter Type    Filter Depth\nGrain Size   Gr. Speed       Gr. Rate         Level\n T Rough        T Fine        Feedback      Wet / Dry\n Bit Crush    Noise Freq     Noise Q       Noise Lvl\n Shift Amt    Time Offset    CV depth      Wet / Dry"
 				}
 
 			}
@@ -4504,19 +4504,19 @@
  ],
 		"parameters" : 		{
 			"obj-113::obj-13" : [ "Arc_1[1]", "Arc_1", 0 ],
-			"obj-147::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
-			"obj-149::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ],
-			"obj-141::obj-81::obj-4" : [ "Glide[12]", "Glide", 0 ],
+			"obj-143::obj-81::obj-4" : [ "Glide[2]", "Glide", 0 ],
+			"obj-141::obj-81::obj-4" : [ "Glide[7]", "Glide", 0 ],
+			"obj-148::obj-81::obj-4" : [ "Glide[6]", "Glide", 0 ],
 			"obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
-			"obj-142::obj-81::obj-4" : [ "Glide[11]", "Glide", 0 ],
-			"obj-144::obj-81::obj-4" : [ "Glide[9]", "Glide", 0 ],
+			"obj-147::obj-81::obj-4" : [ "Glide[5]", "Glide", 0 ],
 			"obj-10::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-148::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
-			"obj-145::obj-81::obj-4" : [ "Glide[8]", "Glide", 0 ],
+			"obj-142::obj-81::obj-4" : [ "Glide[1]", "Glide", 0 ],
+			"obj-149::obj-81::obj-4" : [ "Glide[8]", "Glide", 0 ],
 			"obj-10::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-145::obj-81::obj-4" : [ "Glide[4]", "Glide", 0 ],
 			"obj-113::obj-87" : [ "Arc_4[1]", "Arc_4", 0 ],
 			"obj-7::obj-35" : [ "[1]", "Level", 0 ],
-			"obj-143::obj-81::obj-4" : [ "Glide[10]", "Glide", 0 ],
+			"obj-144::obj-81::obj-4" : [ "Glide[3]", "Glide", 0 ],
 			"obj-113::obj-79" : [ "Arc_3[1]", "Arc_3", 0 ],
 			"obj-113::obj-69" : [ "Arc_2[1]", "Arc_2", 0 ]
 		}
