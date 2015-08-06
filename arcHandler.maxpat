@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 524.0, 211.0, 1362.0, 772.0 ],
+		"rect" : [ 479.0, 176.0, 1362.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1516,10 +1516,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-13" : [ "Arc_1[1]", "Arc_1", 0 ],
 			"obj-87" : [ "Arc_4[1]", "Arc_4", 0 ],
 			"obj-79" : [ "Arc_3[1]", "Arc_3", 0 ],
-			"obj-69" : [ "Arc_2[1]", "Arc_2", 0 ],
-			"obj-13" : [ "Arc_1[1]", "Arc_1", 0 ]
+			"obj-69" : [ "Arc_2[1]", "Arc_2", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
