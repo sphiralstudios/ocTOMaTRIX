@@ -38,13 +38,76 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1388.0, 602.875, 162.0, 47.0 ],
+					"style" : "",
+					"text" : "Only right half of arc1 works right - still working on reverse playback on left half"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1388.0, 519.0, 181.0, 27.0 ],
+					"style" : "",
+					"text" : "Re: Granulator Effect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1388.0, 711.0, 133.0, 20.0 ],
+					"style" : "",
+					"text" : "For now, it's something"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1388.0, 553.875, 165.0, 47.0 ],
+					"style" : "",
+					"text" : "N.B. the granulator needs an arc touch to get going (arc3 - Gr. Rate is least disruptive)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1388.0, 649.0, 170.0, 60.0 ],
+					"style" : "",
+					"text" : "And don't mind these granulator global controls too much, still working on the whole granulator effect"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 605.0, 38.0, 123.0, 24.0 ],
-					"presentation_rect" : [ 499.0, 40.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Or Stereo Files:"
 				}
@@ -471,6 +534,20 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-19",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 1381.0, 505.25, 323.0, 242.25 ],
+					"pic" : "/Users/SphiralStudios/Desktop/its_something.png"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -487,7 +564,7 @@
 					"destination" : [ "obj-4", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 917.0, 388.0, 762.3, 388.0 ],
+					"midpoints" : [ 917.0, 391.0, 762.3, 391.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -497,7 +574,7 @@
 					"destination" : [ "obj-4", 9 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1362.0, 403.0, 847.9, 403.0 ],
+					"midpoints" : [ 1362.0, 406.0, 847.9, 406.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -527,7 +604,7 @@
 					"destination" : [ "obj-4", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 828.5, 376.0, 762.3, 376.0 ],
+					"midpoints" : [ 828.5, 375.0, 762.3, 375.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -537,7 +614,7 @@
 					"destination" : [ "obj-4", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 657.25, 213.0, 648.0, 213.0, 648.0, 375.0, 505.5, 375.0 ],
+					"midpoints" : [ 657.25, 213.0, 648.0, 213.0, 648.0, 379.0, 505.5, 379.0 ],
 					"source" : [ "obj-39", 1 ]
 				}
 
@@ -547,7 +624,7 @@
 					"destination" : [ "obj-4", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 624.5, 363.0, 419.9, 363.0 ],
+					"midpoints" : [ 624.5, 362.0, 419.9, 362.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -585,7 +662,7 @@
 					"destination" : [ "obj-4", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 676.5, 390.0, 591.1, 390.0 ],
+					"midpoints" : [ 676.5, 394.0, 591.1, 394.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -595,7 +672,7 @@
 					"destination" : [ "obj-4", 9 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1273.5, 395.0, 847.9, 395.0 ],
+					"midpoints" : [ 1273.5, 398.0, 847.9, 398.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -605,7 +682,7 @@
 					"destination" : [ "obj-4", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 337.5, 388.0, 248.7, 388.0 ],
+					"midpoints" : [ 337.5, 382.0, 248.7, 382.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -662,6 +739,12 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "its_something.png",
+				"bootpath" : "~/Desktop",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "octomatrix.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/mow_enabled",
 				"type" : "JSON",
