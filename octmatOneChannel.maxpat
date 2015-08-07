@@ -45,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 933.0, 45.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 933.0, 43.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -1690,6 +1689,19 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 196.0, 171.0, 31.0, 22.0 ],
+									"style" : "",
+									"text" : "!- 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-23",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1736,7 +1748,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 632.5, 162.0, 101.0, 22.0 ],
 									"style" : "",
-									"text" : "0.35 0.35 0.5 0.5"
+									"text" : "0.65 0.35 0.5 0.5"
 								}
 
 							}
@@ -1968,7 +1980,7 @@
 									"outlettype" : [ "float", "float", "float", "float" ],
 									"patching_rect" : [ 225.0, 135.0, 143.0, 22.0 ],
 									"style" : "",
-									"text" : "unpack 0.35 0.35 0.5 0.5"
+									"text" : "unpack 0.65 0.35 0.5 0.5"
 								}
 
 							}
@@ -2146,7 +2158,7 @@
 									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 97.0, 177.0, 164.0, 25.0 ],
+									"patching_rect" : [ 97.0, 81.0, 164.0, 25.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"style" : ""
 								}
@@ -2233,19 +2245,28 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-107", 1 ],
+									"destination" : [ "obj-75", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-10", 3 ]
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-75", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-107", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 3 ]
 								}
 
 							}
@@ -2813,7 +2834,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 351.25, 21.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 351.25, 21.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
