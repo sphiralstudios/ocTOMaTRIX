@@ -544,7 +544,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1381.0, 505.25, 323.0, 242.25 ],
-					"pic" : "/Users/SphiralStudios/Desktop/its_something.png"
+					"pic" : "its_something.png"
 				}
 
 			}
